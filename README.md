@@ -80,7 +80,7 @@ Le résultat est envoyé au client avec `writeInt`, qui le récupère avec `read
 Dans le code du client de l’Activité 3, l’adresse du serveur est définie dans `IP_SERVEUR`, puis utilisée avec le port `1234` :
 
 ```java
-static final String IP_SERVEUR = "127.0.0.1";
+static final String IP_SERVEUR = "192.168.100.67";
 static final int PORT = 1234;
 
 InetSocketAddress adresseServeur = new InetSocketAddress(IP_SERVEUR, PORT);
